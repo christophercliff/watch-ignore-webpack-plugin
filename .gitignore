@@ -1,3 +1,4 @@
 /node_modules/
-/test/fixtures/*/build/
-/test/fixtures/*/src/
+/test/build/
+/test/fixtures/ignore/
+/test/fixtures/watch/

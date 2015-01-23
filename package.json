@@ -1,0 +1,26 @@
+{
+  "name": "watch-ignore-webpack-plugin",
+  "version": "0.0.0",
+  "description": "",
+  "main": "./lib/",
+  "scripts": {
+    "style": "./node_modules/.bin/crispy ./lib/ ./test/index.js",
+    "test": "npm run style && ./node_modules/.bin/mocha --reporter spec -r should --grep ''"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/christophercliff/watch-ignore-webpack-plugin"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "webpack": "1.5.x"
+  },
+  "devDependencies": {
+    "assert-dir-equal": "^1.0.1",
+    "bluebird": "^2.8.2",
+    "crispy": "^3.1.2",
+    "mocha": "^2.1.0",
+    "should": "^4.6.1",
+    "webpack": "^1.5.3"
+  }
+}
