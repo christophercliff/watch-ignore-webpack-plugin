@@ -1,3 +1,5 @@
+Deprecated. See https://github.com/webpack/docs/wiki/list-of-plugins.
+
 # watch-ignore-webpack-plugin
 
 [![Build Status](https://travis-ci.org/christophercliff/watch-ignore-webpack-plugin.png?branch=master)](https://travis-ci.org/christophercliff/watch-ignore-webpack-plugin)
