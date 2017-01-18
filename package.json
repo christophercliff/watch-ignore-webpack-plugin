@@ -12,9 +12,6 @@
     "url": "http://github.com/christophercliff/watch-ignore-webpack-plugin"
   },
   "license": "MIT",
-  "peerDependencies": {
-    "webpack": "1.5.x"
-  },
   "devDependencies": {
     "assert-dir-equal": "^1.0.1",
     "bluebird": "^2.8.2",
